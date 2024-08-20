@@ -2,13 +2,21 @@
 
 This project aims to predict whether a patient has diabetes based on medical input data. The prediction model is built using a supervised machine learning algorithm and follows a structured machine learning workflow to ensure systematic processing of information and model accuracy.
 
-## Project Structure
+## Project Files
 
 The project consists of the following files:
 
-1. **pima-data.csv** - The dataset used for training and testing the machine learning model. This dataset contains medical information used to predict diabetes.
-2. **machine learning workflow.txt** - A document explaining the phases involved in building a machine learning model, from problem definition to model refinement.
-3. **diabetes predictor.ipynb** - A Jupyter Notebook that contains the implementation of the diabetes predictor model. It includes code for data preprocessing, model training, testing, and evaluation.
+1. **pima-data.csv**  
+   - The dataset used for training and testing the machine learning model.
+   - It contains various medical features that are used to predict diabetes outcomes.
+
+2. **machine learning workflow.txt**  
+   - This document describes the phases involved in building the machine learning model.
+   - It covers steps from defining the problem to refining the model, ensuring that a repeatable workflow is followed.
+
+3. **diabetes_predictor.ipynb**  
+   - A Jupyter Notebook that contains the implementation of the diabetes predictor model.
+   - Includes code for data preprocessing, model training, testing, and evaluation.
 
 ## Machine Learning Workflow
 
@@ -37,6 +45,9 @@ The `machine learning workflow.txt` file describes the following phases of the m
 
 ## How to Run the Project
 
-1. Install the required Python libraries using the following command:
-   ```bash
-   pip install -r requirements.txt
+1. Open the `diabetes_predictor.ipynb` file in Jupyter Notebook.
+2. Run the notebook to train the model and predict whether a patient has diabetes based on the input data.
+
+## Conclusion
+
+The Diabetes Predictor project is a comprehensive implementation of a machine learning workflow, aimed at producing a reliable predictive model. It demonstrates the full cycle from data preparation to model refinement, making it adaptable to future improvements.
